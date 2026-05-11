@@ -47,3 +47,16 @@ Ex). XOR 문제
 기울기를 구하는 이유 : Backpropagation의 목표는 손실함수의 극솟값을 찾는 것. 현재 위치에서 기울기를 구하면 어느 방향으로 가야 손실함수가 작아지는지 알 수 있다. 따라서 W(가중치) 업데이트를 위해 기울기를 사용
 
 
+(5)
+<img width="249" height="277" alt="image" src="https://github.com/user-attachments/assets/9b3e99a9-515c-446f-93f8-6f6412cc1fa9" />
+
+5번 이미지는 나의 MLP.py코드를 실행했을때 나온 결과이다.
+데이터는 MNIST데이터를 사용, epoch은 15로 설정했으며 활성화 함수는 ReLU함수를 사용
+그리고 손실함수는 CrossEntropy를 사용
+해당 결과는 정확도가 97%정도이다.
+
+(6)
+<img width="414" height="430" alt="image" src="https://github.com/user-attachments/assets/1217f1ca-75bb-4f85-8bbd-f69302e75d52" />
+
+무작위로 하나의 데이터를 뽑아서 시각화해본 결과이다.
+이미지에서 보이듯이 정확도는 약 97%정도이며 label = 7, Prediction=7로 정답을 맞추었다. 
